@@ -1,12 +1,16 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
   <h1>
-    Welcome to {{ title }}!
+    Welcome to {{ title | uppercase }}!<br>
+    {{myname | lowercase}}
   </h1>
 </div>
 <div [ngStyle]="{'color':color,'font-size':size,'font-weight':'bold'}">
 style using ngstyle
 </div>
 <input  [(ngModel)]="color" />
+<button (click)="size = size + 1">+</button>
+<button (click)="size = size + 1">-</button>
+
 
 
