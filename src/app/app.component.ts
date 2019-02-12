@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-first-project';
-  myname='Abhishek'
+  myname='Abhishek';
+  object: object={id:1,name:'Abhishek', Address:'Noida', nested:{group:3, numbers:[1,2,3,4,5,6,7]}};
 }
