@@ -10,4 +10,6 @@ export class AppComponent {
   title = 'my-first-project';
   myname='Abhishek';
   object: object={id:1,name:'Abhishek', Address:'Noida', nested:{group:3, numbers:[1,2,3,4,5,6,7]}};
+  value1: number=145.235
+  value2: number=10.5656
 }
